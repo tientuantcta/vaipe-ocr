@@ -1,0 +1,108 @@
+.box-upload{
+    width: 558px;
+    height: 300px;
+    position: relative;
+    padding: 10px 40px;
+    
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-top: 16px;
+    border: 2px dashed #C4C4C4;
+    background: var(--neutral-white-ffffff, #FFF);
+    flex-shrink: 0;
+}
+.btn-upload{
+    display: inline-flex;
+height: 56px;
+padding: 10px 24px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+margin-top: 24px;margin-bottom: 64px;
+flex-shrink: 0;
+border-radius: 1000px;
+border: 1px solid var(--neutral-grey-c-4-c-4-c-4, #C4C4C4);
+background: var(--neutral-grey-f-6-f-6-f-6, #F6F6F6);
+}
+
+.avatar img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+#uploadProgressBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.d-hide{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-download{
+    height: 56px;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    color: var(--neutral-white-ffffff, #FFF);
+    text-align: center;
+    font-family: Inter;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    gap: 8px;
+    border-radius: 1000px;
+    background: var(--primary-blue-new-3-d-88-e-1, #3D88E1);
+    flex-shrink: 0;
+}
+.selectHide{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+tbody {
+    max-height: 200px; /* Adjust the max-height according to your preference */
+    overflow-y: scroll;
+}
+
+.selectboxstyle{
+    width: 558px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 370px;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.copy-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* text-align: center; */
+    line-height: 40px;
+}
+
+.wrapeer{
+    background: #F5FAFF;
+    padding: 40px 0;
+}
+#processedImage{
+    min-height: 500px;
+    object-fit: contain;
+
+}
