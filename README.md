@@ -1,5 +1,6 @@
-b1:giải nén file sau khi tải về và copy file đc giải nén
-b2:nếu chưa tải xampp thì hãy tải xuống và cài đặt
-b3:di chuyển file đc giải nén đến thư mục c://xampp/htdocs
-b4:mở xampp và click start ở dòng apache
-b5:click vào admin ở dòng apache
+1. Giải nén file sau khi tải về và copy file đã giải nén.
+2. Nếu chưa tải XAMPP, hãy tải xuống và cài đặt
+3. Di chuyển file đã giải nén đến thư mục `C://xampp/htdocs`.
+4. Mở XAMPP và nhấp vào "Start" ở dòng Apache.
+5. Nhấp vào "Admin" ở dòng Apache.
+
